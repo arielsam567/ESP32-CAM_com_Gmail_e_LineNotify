@@ -1,14 +1,9 @@
 /*
-ESP32-CAM (Save a captured photo to Google Drive and LineNotify)
-Author : ChungYi Fu (Kaohsiung, Taiwan)  2019-8-14 21:00
-https://www.facebook.com/francefu
 
 Google Apps Script
-https://github.com/fustyles/webduino/blob/gs/SendCapturedImageToGoogleDriveAndLinenotify_doPost.gs
+https://github.com/arielsam567/ESP32-CAM_com_PIR_GMAIL_e_LineNotify/blob/master/envia_imagem_capturada_para_google_drive_e_lineotify.gs
 You must allow anyone and anonymous to execute the google script.
 
-How to add a new script
-https://www.youtube.com/watch?v=f46VBqWwUuI
 
 https://script.google.com/home
 https://script.google.com/home/executions
@@ -20,8 +15,8 @@ const char* ssid = "Multilaser_2.4G_39C8D0";
 const char* password = "12345678";
 
 const char* myDomain = "script.google.com";
-String myScript = "/macros/s/AKfycbzVI8_US_TYLcQykA2hi2pXxjBVrfeNF4AKTNvi5TiF6UeWAWE7/exec";    //Create your Google Apps Script and replace the "myScript" path.
-String myLineNotifyToken = "myToken=Z41HaN1ooxHySfEXEjdu5JNcNY0x9TJxMqDylc667GU";    //Line Notify Token. You can set the value of xxxxxxxxxx empty if you don't want to send picture to Linenotify.
+String myScript = "/macros/s/AKfycbzVI8_US_TYLcQykA2i2pXxjBVrfeNF4AKTNvi5TiF6UeWAWE7/exec";    //Create your Google Apps Script and replace the "myScript" path.
+String myLineNotifyToken = "myToken=Z41HaN1ooxHySfEXEjdu5NcNY0x9TJxMqDylc667GU";    //Line Notify Token. You can set the value of xxxxxxxxxx empty if you don't want to send picture to Linenotify.
 String myFoldername = "&myFoldername=ESP32-CAM";
 String myFilename = "&myFilename=ESP32-CAM.jpg";
 String myImage = "&myFile=";
